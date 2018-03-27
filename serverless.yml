@@ -19,7 +19,13 @@ service: random
 
 provider:
   name: aws
+  stage: dev
+  region: ap-south-1
   runtime: nodejs6.10
+  profile: naseefOwn
+
+plugins:
+  - serverless-offline
 
 # you can overwrite defaults here
 #  stage: dev
