@@ -64,7 +64,7 @@ functions:
   randomString:
     handler: random.string
     events: 
-      - http: get random/string
+      - http: post random/string
 
   randomNumber:
     handler: random.number

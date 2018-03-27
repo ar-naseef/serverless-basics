@@ -4,7 +4,8 @@ module.exports.string = (event, context, callback) => {
   
   let str = "";
   const source = "abcdefghijklmnopqrstuvwxyz";
-  let size = 5;
+  let body = JSON.parse(event.body);
+  let size = body.size;
 
   for (let i=0; i<size; i++) {
     str = str + source.charAt(Math.floor(Math.random() * source.length));
