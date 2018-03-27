@@ -1,0 +1,23 @@
+{
+  "name": "random",
+  "version": "1.0.0",
+  "description": "",
+  "main": "random.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ar-naseef/serverless-basics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ar-naseef/serverless-basics/issues"
+  },
+  "homepage": "https://github.com/ar-naseef/serverless-basics#readme",
+  "dependencies": {
+    "serverless-offline": "^3.18.0"
+  }
+}
