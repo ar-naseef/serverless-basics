@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/ar-naseef/serverless-basics#readme",
   "dependencies": {
-    "serverless-offline": "^3.18.0"
+    "serverless-offline": "^12.0.3"
   }
 }
